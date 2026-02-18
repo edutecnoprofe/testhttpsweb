@@ -1,0 +1,63 @@
+.image-placeholder {
+    width: 100%;
+    height: 200px;
+    background-color: var(--color-background);
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    border: 2px dashed var(--color-border);
+    margin-top: var(--spacing-md);
+    transition: all 0.3s ease;
+}
+
+.image-placeholder:hover {
+    border-color: var(--color-secondary);
+    background-color: rgba(224, 192, 151, 0.1);
+}
+
+.placeholder-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 3;
+}
+
+.placeholder-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-sm);
+    z-index: 2;
+    color: var(--color-text-tertiary);
+}
+
+.placeholder-icon {
+    opacity: 0.5;
+}
+
+.placeholder-text {
+    font-weight: 500;
+    font-family: var(--font-heading);
+}
+
+.placeholder-alt {
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+/* Background pattern */
+.placeholder-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(var(--color-border) 1px, transparent 1px);
+    background-size: 20px 20px;
+    opacity: 0.3;
+    z-index: 1;
+}

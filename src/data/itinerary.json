@@ -1,0 +1,553 @@
+{
+    "tripName": "Roma 2026",
+    "days": [
+        {
+            "id": "day1",
+            "date": "Sábado 21",
+            "title": "Llegada y Misterios de Roma",
+            "summary": "Boca de la Verdad, Barrio Judío, gatos en Largo Argentina y Barroco.",
+            "activities": [
+                {
+                    "id": "arrival",
+                    "time": "13:00",
+                    "location": "Aeropuerto Fiumicino",
+                    "description": "Llegada y traslado al apartamento en Via Angelo Emo, 5. Leonardo Express a Termini + Metro A a Cipro.",
+                    "type": "transport",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Fiumicino+Airport&destination=Via+Angelo+Emo,+5,+Roma&travelmode=transit"
+                },
+                {
+                    "id": "market",
+                    "time": "15:00",
+                    "location": "Carrefour Express (Via Giulio Venticinque)",
+                    "description": "Compra de supervivencia: leche, fruta, yogures, galletas Mulino Bianco, agua y cena rápida.",
+                    "type": "food",
+                    "tips": "El Carrefour Market de Piazzale degli Eroi abre 24h si necesitáis más."
+                },
+                {
+                    "id": "transport_bocca",
+                    "time": "15:50",
+                    "location": "Trayecto a Boca de la Verdad",
+                    "description": "Bus 81 desde parada CRESCENZIO/RISORGIMENTO hasta GRECA.",
+                    "type": "transport",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Via+Angelo+Emo,+5,+Roma&destination=Piazza+Bocca+della+Verità&travelmode=transit"
+                },
+                {
+                    "id": "bocca",
+                    "time": "16:30",
+                    "location": "Bocca della Verità",
+                    "description": "La famosa máscara. Si hay mucha cola, ver desde fuera. Cierra 17:50.",
+                    "type": "visit",
+                    "imageId": "visit_bocca"
+                },
+                {
+                    "id": "ghetto",
+                    "time": "17:00",
+                    "location": "Barrio Judío (Ghetto)",
+                    "description": "Paseo por Teatro Marcelo, Pórtico de Octavia y Fuente de las Tortugas.",
+                    "type": "walk",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Piazza+Bocca+della+Verità&destination=Teatro+di+Marcello&travelmode=walking"
+                },
+                {
+                    "id": "merienda",
+                    "time": "17:30",
+                    "location": "Merienda en el Ghetto",
+                    "description": "Tarta de ricotta en Boccione o Pizza Bianca en Forno del Ghetto.",
+                    "type": "food"
+                },
+                {
+                    "id": "argentina",
+                    "time": "18:00",
+                    "location": "Largo di Torre Argentina",
+                    "description": "Santuario de gatos entre ruinas romanas. Lugar muerte César.",
+                    "type": "visit",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Teatro+di+Marcello&destination=Largo+di+Torre+Argentina&travelmode=walking",
+                    "imageId": "visit_torre_argentina"
+                },
+                {
+                    "id": "gesu",
+                    "time": "18:30",
+                    "location": "Iglesia del Gesù",
+                    "description": "Espectacular techo barroco con efecto 3D.",
+                    "type": "visit",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Largo+di+Torre+Argentina&destination=Chiesa+del+Gesù,+Roma&travelmode=walking",
+                    "imageId": "visit_gesu"
+                },
+                {
+                    "id": "ignacio",
+                    "time": "19:00",
+                    "location": "San Ignacio de Loyola",
+                    "description": "Cúpula falsa y espejo en el suelo.",
+                    "type": "visit",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Chiesa+del+Gesù,+Roma&destination=Sant'Ignazio+di+Loyola,+Roma&travelmode=walking",
+                    "imageId": "visit_ignacio"
+                },
+                {
+                    "id": "dinner_day1",
+                    "time": "20:00",
+                    "location": "Cena Take Away",
+                    "description": "Alice Pizza (Largo Argentina) o Pasta Imperiale. Vuelta en Bus 492 desde Corso/Minghetti a Cipro.",
+                    "type": "food",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Via+del+Corso,+Roma&destination=Via+Cipro,+Roma&travelmode=transit"
+                }
+            ]
+        },
+        {
+            "id": "day2",
+            "date": "Domingo 22",
+            "title": "Cine y Acueductos",
+            "summary": "Estudios de Cinecittà, picnic romano y San Juan de Letrán.",
+            "activities": [
+                {
+                    "id": "transport_cinecitta",
+                    "time": "09:00",
+                    "location": "Trayecto a Cinecittà",
+                    "description": "Metro A desde Cipro (Dir. Anagnina) hasta parada Cinecittà.",
+                    "type": "transport",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Stazione+Metro+Cipro&destination=Cinecittà+Studios&travelmode=transit"
+                },
+                {
+                    "id": "cinecitta",
+                    "time": "10:30",
+                    "location": "Cinecittà World",
+                    "description": "Visita guiada. Sets de Roma Antigua, Florencia y Jerusalén.",
+                    "type": "visit",
+                    "imageId": "visit_cinecitta"
+                },
+                {
+                    "id": "transport_park",
+                    "time": "13:00",
+                    "location": "Trayecto a Parco degli Acquedotti",
+                    "description": "Metro A de Cinecittà a Giulio Agricola + Caminata.",
+                    "type": "transport",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Cinecittà+Studios&destination=Parco+degli+Acquedotti&travelmode=transit"
+                },
+                {
+                    "id": "park",
+                    "time": "13:30",
+                    "location": "Parque de los Acueductos",
+                    "description": "Picnic bajo los arcos del Aqua Claudia. Escenario de La Gran Belleza.",
+                    "type": "relax"
+                },
+                {
+                    "id": "transport_laterano",
+                    "time": "15:00",
+                    "location": "Trayecto a San Giovanni",
+                    "description": "Metro A de Giulio Agricola a San Giovanni.",
+                    "type": "transport",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Parco+degli+Acquedotti&destination=Basilica+di+San+Giovanni+in+Laterano&travelmode=transit"
+                },
+                {
+                    "id": "laterano",
+                    "time": "15:30",
+                    "location": "San Juan de Letrán",
+                    "description": "Catedral de Roma, Escalera Santa, Baptisterio y Claustro.",
+                    "type": "visit",
+                    "imageId": "visit_laterano"
+                },
+                {
+                    "id": "walk_colosseo",
+                    "time": "17:00",
+                    "location": "Paseo al Coliseo",
+                    "description": "Vía San Giovanni in Laterano -> San Clemente -> Cuatro Santos Coronados -> Coliseo.",
+                    "type": "walk",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Basilica+di+San+Giovanni+in+Laterano&destination=Colosseo&travelmode=walking"
+                },
+                {
+                    "id": "colosseo_night",
+                    "time": "18:00",
+                    "location": "Coliseo (Exterior)",
+                    "description": "Ver el Coliseo iluminado y Ludus Magnus.",
+                    "type": "visit",
+                    "imageId": "visit_colosseo_night"
+                },
+                {
+                    "id": "return_day2",
+                    "time": "19:00",
+                    "location": "Regreso",
+                    "description": "Metro B Colosseo -> Termini -> Metro A -> Cipro.",
+                    "type": "transport",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Colosseo&destination=Via+Angelo+Emo,+5,+Roma&travelmode=transit"
+                }
+            ]
+        },
+        {
+            "id": "day3",
+            "date": "Lunes 23",
+            "title": "Roma Monumental",
+            "summary": "Plazas, fuentes barrocas, Panteón y tarde en el Trastevere.",
+            "activities": [
+                {
+                    "id": "transport_popolo",
+                    "time": "08:00",
+                    "location": "Trayecto a Piazza del Popolo",
+                    "description": "Metro A de Cipro a Flaminio.",
+                    "type": "transport",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Via+Angelo+Emo,+5,+Roma&destination=Piazza+del+Popolo&travelmode=transit"
+                },
+                {
+                    "id": "popolo",
+                    "time": "08:30",
+                    "location": "Piazza del Popolo y Santa Maria",
+                    "description": "Iglesias gemelas y Capilla Cerasi (Caravaggio) en Santa Maria del Popolo.",
+                    "type": "visit",
+                    "imageId": "visit_popolo"
+                },
+                {
+                    "id": "spagna",
+                    "time": "09:45",
+                    "location": "Plaza de España",
+                    "description": "Escalinata y Fuente de la Barcaza. Paseo por Via del Babuino.",
+                    "type": "walk",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Piazza+del+Popolo&destination=Piazza+di+Spagna&travelmode=walking"
+                },
+                {
+                    "id": "trevi",
+                    "time": "11:00",
+                    "location": "Fontana de Trevi",
+                    "description": "Tirar la moneda. Buscar el 'As de Copas'.",
+                    "type": "visit",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Piazza+di+Spagna&destination=Fontana+di+Trevi&travelmode=walking",
+                    "imageId": "visit_trevi"
+                },
+                {
+                    "id": "san_luis",
+                    "time": "11:30",
+                    "location": "San Luis de los Franceses",
+                    "description": "Capilla Contarelli con cuadros de Caravaggio.",
+                    "type": "visit",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Fontana+di+Trevi&destination=San+Luigi+dei+Francesi&travelmode=walking",
+                    "imageId": "visit_san_luis"
+                },
+                {
+                    "id": "pantheon",
+                    "time": "12:30",
+                    "location": "Panteón de Agripa",
+                    "description": "Entrada contratada 12:00-13:00. Óculo y tumba de Rafael.",
+                    "type": "visit",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=San+Luigi+dei+Francesi&destination=Pantheon&travelmode=walking",
+                    "imageId": "visit_pantheon"
+                },
+                {
+                    "id": "navona_lunch",
+                    "time": "13:30",
+                    "location": "Piazza Navona y Comida",
+                    "description": "Fuentes de Bernini. Comida en PanDivino o La Nuova Piazzetta. Postre: Tiramisú en Two Sizes.",
+                    "type": "food",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Pantheon&destination=Piazza+Navona&travelmode=walking"
+                },
+                {
+                    "id": "churches_navona",
+                    "time": "14:30",
+                    "location": "Iglesias cerca de Navona",
+                    "description": "Sant'Ivo alla Sapienza (patio), Santa María della Pace.",
+                    "type": "walk"
+                },
+                {
+                    "id": "trastevere",
+                    "time": "15:00",
+                    "location": "Paseo al Trastevere",
+                    "description": "Campo de' Fiori -> Ponte Sisto -> Santa Maria in Trastevere -> Isla Tiberina.",
+                    "type": "walk",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Piazza+Navona&destination=Basilica+di+Santa+Maria+in+Trastevere&travelmode=walking",
+                    "imageId": "visit_trastevere"
+                },
+                {
+                    "id": "return_day3",
+                    "time": "18:15",
+                    "location": "Regreso",
+                    "description": "Bus 23 desde Lungotevere (Lgt Farnesina/Trilussa) a zona Vaticano/Cipro.",
+                    "type": "transport",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Piazza+Trilussa&destination=Via+Angelo+Emo,+5,+Roma&travelmode=transit"
+                }
+            ]
+        },
+        {
+            "id": "day4",
+            "date": "Martes 24",
+            "title": "Catacumbas y Arte",
+            "summary": "Misterios subterráneos (Priscila), Barrio Coppedè y Villa Borghese.",
+            "activities": [
+                {
+                    "id": "transport_priscilla",
+                    "time": "10:00",
+                    "location": "Trayecto a Catacumbas",
+                    "description": "Metro A a Termini + Bus 92 a parada Priscilla.",
+                    "type": "transport",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Via+Angelo+Emo,+5,+Roma&destination=Catacombe+di+Priscilla&travelmode=transit"
+                },
+                {
+                    "id": "priscilla",
+                    "time": "11:00",
+                    "location": "Catacumbas de Priscila",
+                    "description": "Visita contratada. Frescos paleocristianos.",
+                    "type": "visit",
+                    "imageId": "visit_catacumbas"
+                },
+                {
+                    "id": "coppede",
+                    "time": "12:15",
+                    "location": "Barrio Coppedè",
+                    "description": "Paseo por Via Tagliamento y Piazza Mincio. Fuente de las Ranas.",
+                    "type": "walk",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Catacombe+di+Priscilla&destination=Quartiere+Coppedè&travelmode=transit"
+                },
+                {
+                    "id": "borghese",
+                    "time": "13:15",
+                    "location": "Villa Borghese",
+                    "description": "Entrada por Via Gregorio Allegri. Picnic, Templo de Esculapio y Terraza del Pincio.",
+                    "type": "relax",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Piazza+Mincio&destination=Villa+Borghese&travelmode=walking"
+                },
+                {
+                    "id": "transport_baroque",
+                    "time": "15:30",
+                    "location": "Trayecto a Barberini",
+                    "description": "Metro A desde Flaminio a Barberini.",
+                    "type": "transport",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Piazza+del+Popolo&destination=Piazza+Barberini&travelmode=transit"
+                },
+                {
+                    "id": "baroque",
+                    "time": "16:00",
+                    "location": "Joyas del Barroco",
+                    "description": "San Carlo alle Quattro Fontane (Borromini) y Sant'Andrea al Quirinale (Bernini).",
+                    "type": "visit",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Piazza+Barberini&destination=San+Carlo+alle+Quattro+Fontane&travelmode=walking",
+                    "imageId": "visit_san_carlo"
+                },
+                {
+                    "id": "return_day4",
+                    "time": "18:00",
+                    "location": "Regreso",
+                    "description": "Metro A desde Barberini a Cipro.",
+                    "type": "transport",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=San+Carlo+alle+Quattro+Fontane&destination=Via+Angelo+Emo,+5,+Roma&travelmode=transit"
+                }
+            ]
+        },
+        {
+            "id": "day5",
+            "date": "Miércoles 25",
+            "title": "Roma Antigua Imperial",
+            "summary": "Corazón del Imperio: Coliseo, Foros y Museos Capitolinos.",
+            "activities": [
+                {
+                    "id": "transport_coliseo",
+                    "time": "07:30",
+                    "location": "Trayecto al Coliseo",
+                    "description": "Metro A a Termini + Metro B a Colosseo.",
+                    "type": "transport",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Via+Angelo+Emo,+5,+Roma&destination=Colosseo&travelmode=transit"
+                },
+                {
+                    "id": "coliseo_visit",
+                    "time": "08:30",
+                    "location": "Coliseo, Foro y Palatino",
+                    "description": "Entrada contratada. Coliseo, Foro Romano y Monte Palatino.",
+                    "type": "visit",
+                    "imageId": "visit_colosseo"
+                },
+                {
+                    "id": "lunch_palatino",
+                    "time": "13:30",
+                    "location": "Comida en Palatino",
+                    "description": "Picnic en Huertos Farnesianos o cerca del Museo Palatino.",
+                    "type": "food"
+                },
+                {
+                    "id": "capitoline_walk",
+                    "time": "15:30",
+                    "location": "Paseo a Capitolinos",
+                    "description": "Via dei Fori Imperiali -> Piazza Venezia -> Campidoglio.",
+                    "type": "walk",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Colosseo&destination=Musei+Capitolini&travelmode=walking"
+                },
+                {
+                    "id": "capitoline",
+                    "time": "16:10",
+                    "location": "Museos Capitolinos",
+                    "description": "Entrada contratada. Loba, Marco Aurelio, Spinario y vistas Tabularium.",
+                    "type": "visit",
+                    "imageId": "visit_capitolinos"
+                },
+                {
+                    "id": "altar",
+                    "time": "18:00",
+                    "location": "Altar de la Patria",
+                    "description": "Vistas nocturnas y Llama Eterna.",
+                    "type": "visit",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Musei+Capitolini&destination=Altare+della+Patria&travelmode=walking",
+                    "imageId": "visit_altar"
+                },
+                {
+                    "id": "return_day5",
+                    "time": "18:45",
+                    "location": "Regreso",
+                    "description": "Bus 492 desde Piazza Venezia/Plebiscito a Cipro, o Bus 46/916 a Emo/Bragadin.",
+                    "type": "transport",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Piazza+Venezia&destination=Via+Angelo+Emo,+5,+Roma&travelmode=transit"
+                }
+            ]
+        },
+        {
+            "id": "day6",
+            "date": "Jueves 26",
+            "title": "Vaticano y Vistas",
+            "summary": "Gianicolo, Museos Vaticanos y Castel Sant'Angelo iluminado.",
+            "activities": [
+                {
+                    "id": "transport_montorio",
+                    "time": "09:30",
+                    "location": "Trayecto a S. Pietro in Montorio",
+                    "description": "Metro A a Valle Aurelia + Bus 115.",
+                    "type": "transport",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Via+Angelo+Emo,+5,+Roma&destination=San+Pietro+in+Montorio&travelmode=transit"
+                },
+                {
+                    "id": "montorio",
+                    "time": "10:00",
+                    "location": "San Pietro in Montorio",
+                    "description": "Templete de Bramante.",
+                    "type": "visit",
+                    "imageId": "visit_bramante"
+                },
+                {
+                    "id": "gianicolo_walk",
+                    "time": "10:45",
+                    "location": "Paseo Gianicolo",
+                    "description": "Fontana dell'Acqua Paola y Plaza Garibaldi.",
+                    "type": "walk",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=San+Pietro+in+Montorio&destination=Piazzale+Giuseppe+Garibaldi&travelmode=walking"
+                },
+                {
+                    "id": "cannon",
+                    "time": "12:00",
+                    "location": "Cañón del Gianicolo",
+                    "description": "Disparo de mediodía.",
+                    "type": "visit",
+                    "imageId": "visit_gianicolo"
+                },
+                {
+                    "id": "descend_vatican",
+                    "time": "14:45",
+                    "location": "Descenso al Vaticano",
+                    "description": "Bajada a pie por Passeggiata del Gianicolo hasta Museos Vaticanos.",
+                    "type": "walk",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Piazzale+Giuseppe+Garibaldi&destination=Musei+Vaticani&travelmode=walking"
+                },
+                {
+                    "id": "vatican_museums",
+                    "time": "16:00",
+                    "location": "Museos Vaticanos",
+                    "description": "Entrada RESERVADA. Capilla Sixtina y Estancias de Rafael.",
+                    "type": "visit",
+                    "imageId": "visit_vaticano"
+                },
+                {
+                    "id": "night_walk",
+                    "time": "19:00",
+                    "location": "Paseo Nocturno",
+                    "description": "Plaza San Pedro -> Via Conciliazione -> Castel Sant'Angelo -> Via dei Coronari.",
+                    "type": "walk",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Piazza+San+Pietro&destination=Via+dei+Coronari&travelmode=walking"
+                },
+                {
+                    "id": "return_day6",
+                    "time": "20:00",
+                    "location": "Regreso",
+                    "description": "Caminar a Metro Lepanto/Ottaviano -> Cipro, o Bus 492.",
+                    "type": "transport",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Via+dei+Coronari&destination=Via+Angelo+Emo,+5,+Roma&travelmode=transit"
+                }
+            ]
+        },
+        {
+            "id": "day7",
+            "date": "Viernes 27",
+            "title": "Moisés y San Pablo",
+            "summary": "Esculturas poderosas, Aventino y Basílica de San Pedro.",
+            "activities": [
+                {
+                    "id": "transport_moses",
+                    "time": "09:00",
+                    "location": "Trayecto a San Pietro in Vincoli",
+                    "description": "Metro A a Termini + Metro B a Cavour.",
+                    "type": "transport",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Via+Angelo+Emo,+5,+Roma&destination=San+Pietro+in+Vincoli&travelmode=transit"
+                },
+                {
+                    "id": "moses",
+                    "time": "10:00",
+                    "location": "San Pietro in Vincoli",
+                    "description": "El Moisés de Miguel Ángel.",
+                    "type": "visit",
+                    "imageId": "visit_moises"
+                },
+                {
+                    "id": "transport_aventino",
+                    "time": "11:00",
+                    "location": "Trayecto a Aventino",
+                    "description": "Metro B Colosseo a Circo Massimo + Caminata.",
+                    "type": "transport",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=San+Pietro+in+Vincoli&destination=Piazza+dei+Cavalieri+di+Malta&travelmode=transit"
+                },
+                {
+                    "id": "aventino",
+                    "time": "11:15",
+                    "location": "Monte Aventino",
+                    "description": "Ojo de la cerradura y Jardín de los Naranjos.",
+                    "type": "walk"
+                },
+                {
+                    "id": "testaccio_lunch",
+                    "time": "13:00",
+                    "location": "Comida en Testaccio",
+                    "description": "Bajada a Mercado de Testaccio. Comida callejera.",
+                    "type": "food",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Giardino+degli+Aranci&destination=Mercato+di+Testaccio&travelmode=walking"
+                },
+                {
+                    "id": "transport_san_paolo",
+                    "time": "15:00",
+                    "location": "Trayecto a San Pablo",
+                    "description": "Metro B Piramide a San Paolo Basilica.",
+                    "type": "transport",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Mercato+di+Testaccio&destination=Basilica+San+Paolo+fuori+le+mura&travelmode=transit"
+                },
+                {
+                    "id": "san_paolo",
+                    "time": "15:30",
+                    "location": "San Pablo Extramuros",
+                    "description": "Basílica y Claustro.",
+                    "type": "visit",
+                    "imageId": "visit_san_pablo"
+                },
+                {
+                    "id": "transport_san_pedro",
+                    "time": "16:00",
+                    "location": "Trayecto a San Pedro",
+                    "description": "Metro B a Termini + Bus 40/64.",
+                    "type": "transport",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Basilica+San+Paolo+fuori+le+mura&destination=Piazza+San+Pietro&travelmode=transit"
+                },
+                {
+                    "id": "san_pedro",
+                    "time": "16:30",
+                    "location": "Basílica de San Pedro",
+                    "description": "Interior basílica, Piedad, Baldaquino. Sin colas.",
+                    "type": "visit",
+                    "imageId": "visit_san_pedro"
+                },
+                {
+                    "id": "return_home",
+                    "time": "18:30",
+                    "location": "Regreso a Casa",
+                    "description": "Caminata bordeando murallas vaticanas.",
+                    "type": "walk",
+                    "googleMapsLink": "https://www.google.com/maps/dir/?api=1&origin=Piazza+San+Pietro&destination=Via+Angelo+Emo,+5,+Roma&travelmode=walking"
+                }
+            ]
+        }
+    ]
+}

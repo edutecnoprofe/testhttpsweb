@@ -1,0 +1,43 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;display=swap');
+      .bg { fill: #F9F7F2; }
+      .river { fill: none; stroke: #D4E4F7; stroke-width: 20; stroke-linecap: round; }
+      .route { fill: none; stroke: #A63C3C; stroke-width: 4; stroke-dasharray: 8 6; stroke-linecap: round; }
+      .point { fill: #A63C3C; stroke: #FFFFFF; stroke-width: 2; }
+      .text { font-family: 'Segoe UI', sans-serif; font-size: 14px; fill: #A63C3C; font-weight: bold; }
+      .watermark { font-family: sans-serif; font-size: 10px; fill: #E5E0D8; text-anchor: end; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" class="bg"/>
+  
+  <!-- Abstract River Tiber -->
+  <path d="M-20,250 C100,280 150,100 250,150 S350,50 420,80" class="river"/>
+  
+  <!-- Streets -->
+  <line x1="92" y1="125" x2="60" y2="188" stroke="#E5E0D8" stroke-width="2" /><line x1="321" y1="149" x2="322" y2="197" stroke="#E5E0D8" stroke-width="2" /><line x1="298" y1="5" x2="243" y2="-60" stroke="#E5E0D8" stroke-width="2" /><line x1="223" y1="120" x2="279" y2="148" stroke="#E5E0D8" stroke-width="2" /><line x1="276" y1="16" x2="373" y2="97" stroke="#E5E0D8" stroke-width="2" /><line x1="105" y1="235" x2="26" y2="275" stroke="#E5E0D8" stroke-width="2" /><line x1="272" y1="116" x2="207" y2="78" stroke="#E5E0D8" stroke-width="2" /><line x1="273" y1="287" x2="361" y2="364" stroke="#E5E0D8" stroke-width="2" /><line x1="50" y1="277" x2="99" y2="262" stroke="#E5E0D8" stroke-width="2" /><line x1="75" y1="270" x2="149" y2="188" stroke="#E5E0D8" stroke-width="2" /><line x1="289" y1="215" x2="284" y2="170" stroke="#E5E0D8" stroke-width="2" /><line x1="377" y1="131" x2="307" y2="104" stroke="#E5E0D8" stroke-width="2" /><line x1="209" y1="293" x2="233" y2="274" stroke="#E5E0D8" stroke-width="2" /><line x1="396" y1="138" x2="331" y2="146" stroke="#E5E0D8" stroke-width="2" /><line x1="269" y1="25" x2="231" y2="-51" stroke="#E5E0D8" stroke-width="2" />
+  
+  <!-- Route -->
+  <path d="M52,145 Q173,123 318,176" class="route">
+    <animate attributeName="stroke-dashoffset" from="100" to="0" dur="3s" repeatCount="indefinite" />
+  </path>
+  
+  <!-- Points -->
+  <circle cx="52" cy="145" r="6" class="point"/>
+  <circle cx="318" cy="176" r="6" class="point"/>
+  
+  <!-- Labels -->
+  <text x="52" y="130" text-anchor="middle" class="text">A</text>
+  <text x="318" y="161" text-anchor="middle" class="text">B</text>
+  
+  <!-- Title/Watermark -->
+  <text x="390" y="290" class="watermark">Paseo Bocca della Verità</text>
+  
+  <!-- Compass/Scale hint -->
+  <circle cx="20" cy="20" r="10" fill="none" stroke="#E0C097" stroke-width="1"/>
+  <path d="M20,10 L20,30 M10,20 L30,20" stroke="#E0C097" stroke-width="1"/>
+</svg>

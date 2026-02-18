@@ -1,0 +1,43 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;display=swap');
+      .bg { fill: #F9F7F2; }
+      .river { fill: none; stroke: #D4E4F7; stroke-width: 20; stroke-linecap: round; }
+      .route { fill: none; stroke: #A63C3C; stroke-width: 4; stroke-dasharray: 8 6; stroke-linecap: round; }
+      .point { fill: #A63C3C; stroke: #FFFFFF; stroke-width: 2; }
+      .text { font-family: 'Segoe UI', sans-serif; font-size: 14px; fill: #A63C3C; font-weight: bold; }
+      .watermark { font-family: sans-serif; font-size: 10px; fill: #E5E0D8; text-anchor: end; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" class="bg"/>
+  
+  <!-- Abstract River Tiber -->
+  <path d="M-20,250 C100,280 150,100 250,150 S350,50 420,80" class="river"/>
+  
+  <!-- Streets -->
+  <line x1="81" y1="126" x2="26" y2="97" stroke="#E5E0D8" stroke-width="2" /><line x1="218" y1="191" x2="128" y2="97" stroke="#E5E0D8" stroke-width="2" /><line x1="307" y1="260" x2="229" y2="355" stroke="#E5E0D8" stroke-width="2" /><line x1="21" y1="285" x2="33" y2="285" stroke="#E5E0D8" stroke-width="2" /><line x1="303" y1="300" x2="223" y2="230" stroke="#E5E0D8" stroke-width="2" /><line x1="365" y1="292" x2="282" y2="316" stroke="#E5E0D8" stroke-width="2" /><line x1="307" y1="102" x2="381" y2="142" stroke="#E5E0D8" stroke-width="2" /><line x1="56" y1="66" x2="105" y2="76" stroke="#E5E0D8" stroke-width="2" /><line x1="70" y1="129" x2="-19" y2="210" stroke="#E5E0D8" stroke-width="2" /><line x1="45" y1="262" x2="56" y2="170" stroke="#E5E0D8" stroke-width="2" /><line x1="214" y1="173" x2="217" y2="225" stroke="#E5E0D8" stroke-width="2" /><line x1="332" y1="66" x2="392" y2="-8" stroke="#E5E0D8" stroke-width="2" /><line x1="241" y1="153" x2="260" y2="193" stroke="#E5E0D8" stroke-width="2" /><line x1="38" y1="39" x2="109" y2="102" stroke="#E5E0D8" stroke-width="2" /><line x1="24" y1="128" x2="-45" y2="176" stroke="#E5E0D8" stroke-width="2" />
+  
+  <!-- Route -->
+  <path d="M53,98 Q154,141 307,196" class="route">
+    <animate attributeName="stroke-dashoffset" from="100" to="0" dur="3s" repeatCount="indefinite" />
+  </path>
+  
+  <!-- Points -->
+  <circle cx="53" cy="98" r="6" class="point"/>
+  <circle cx="307" cy="196" r="6" class="point"/>
+  
+  <!-- Labels -->
+  <text x="53" y="83" text-anchor="middle" class="text">A</text>
+  <text x="307" y="181" text-anchor="middle" class="text">B</text>
+  
+  <!-- Title/Watermark -->
+  <text x="390" y="290" class="watermark">Ruta Metro Cinecittà</text>
+  
+  <!-- Compass/Scale hint -->
+  <circle cx="20" cy="20" r="10" fill="none" stroke="#E0C097" stroke-width="1"/>
+  <path d="M20,10 L20,30 M10,20 L30,20" stroke="#E0C097" stroke-width="1"/>
+</svg>

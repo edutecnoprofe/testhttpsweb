@@ -1,0 +1,43 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;display=swap');
+      .bg { fill: #F9F7F2; }
+      .river { fill: none; stroke: #D4E4F7; stroke-width: 20; stroke-linecap: round; }
+      .route { fill: none; stroke: #A63C3C; stroke-width: 4; stroke-dasharray: 8 6; stroke-linecap: round; }
+      .point { fill: #A63C3C; stroke: #FFFFFF; stroke-width: 2; }
+      .text { font-family: 'Segoe UI', sans-serif; font-size: 14px; fill: #A63C3C; font-weight: bold; }
+      .watermark { font-family: sans-serif; font-size: 10px; fill: #E5E0D8; text-anchor: end; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" class="bg"/>
+  
+  <!-- Abstract River Tiber -->
+  <path d="M-20,250 C100,280 150,100 250,150 S350,50 420,80" class="river"/>
+  
+  <!-- Streets -->
+  <line x1="269" y1="102" x2="307" y2="154" stroke="#E5E0D8" stroke-width="2" /><line x1="136" y1="150" x2="43" y2="87" stroke="#E5E0D8" stroke-width="2" /><line x1="266" y1="41" x2="166" y2="92" stroke="#E5E0D8" stroke-width="2" /><line x1="369" y1="185" x2="402" y2="282" stroke="#E5E0D8" stroke-width="2" /><line x1="154" y1="84" x2="178" y2="174" stroke="#E5E0D8" stroke-width="2" /><line x1="48" y1="186" x2="111" y2="275" stroke="#E5E0D8" stroke-width="2" /><line x1="128" y1="122" x2="221" y2="65" stroke="#E5E0D8" stroke-width="2" /><line x1="375" y1="241" x2="315" y2="325" stroke="#E5E0D8" stroke-width="2" /><line x1="364" y1="212" x2="288" y2="245" stroke="#E5E0D8" stroke-width="2" /><line x1="42" y1="186" x2="99" y2="170" stroke="#E5E0D8" stroke-width="2" /><line x1="22" y1="108" x2="-20" y2="135" stroke="#E5E0D8" stroke-width="2" /><line x1="271" y1="79" x2="205" y2="15" stroke="#E5E0D8" stroke-width="2" /><line x1="204" y1="287" x2="126" y2="343" stroke="#E5E0D8" stroke-width="2" /><line x1="323" y1="132" x2="276" y2="93" stroke="#E5E0D8" stroke-width="2" /><line x1="66" y1="195" x2="10" y2="178" stroke="#E5E0D8" stroke-width="2" />
+  
+  <!-- Route -->
+  <path d="M143,95 Q226,116 285,175" class="route">
+    <animate attributeName="stroke-dashoffset" from="100" to="0" dur="3s" repeatCount="indefinite" />
+  </path>
+  
+  <!-- Points -->
+  <circle cx="143" cy="95" r="6" class="point"/>
+  <circle cx="285" cy="175" r="6" class="point"/>
+  
+  <!-- Labels -->
+  <text x="143" y="80" text-anchor="middle" class="text">A</text>
+  <text x="285" y="160" text-anchor="middle" class="text">B</text>
+  
+  <!-- Title/Watermark -->
+  <text x="390" y="290" class="watermark">Paseo Plaza España</text>
+  
+  <!-- Compass/Scale hint -->
+  <circle cx="20" cy="20" r="10" fill="none" stroke="#E0C097" stroke-width="1"/>
+  <path d="M20,10 L20,30 M10,20 L30,20" stroke="#E0C097" stroke-width="1"/>
+</svg>
