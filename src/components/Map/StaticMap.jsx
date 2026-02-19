@@ -14,7 +14,7 @@ const StaticMap = ({ dayId, mapId, title, isEmbedded = false }) => {
     if (mapKey && !hasError) {
         for (let y = 0; y < 3; y++) {
             for (let x = 0; x < 3; x++) {
-                tiles.push(`/assets/maps/${mapKey}_${y}_${x}.png`);
+                tiles.push(`${import.meta.env.BASE_URL}assets/maps/${mapKey}_${y}_${x}.png`);
             }
         }
     }

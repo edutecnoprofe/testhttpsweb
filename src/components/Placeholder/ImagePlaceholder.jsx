@@ -4,7 +4,7 @@ import './ImagePlaceholder.css';
 
 const ImagePlaceholder = ({ imageId, altText, type = 'default' }) => {
     const isRemote = imageId?.startsWith('http');
-    const imagePath = isRemote ? imageId : (imageId ? `/assets/images/${imageId}.jpg` : null);
+    const imagePath = isRemote ? imageId : (imageId ? `${import.meta.env.BASE_URL}assets/images/${imageId}.jpg` : null);
 
     return (
         <div className={`image-placeholder type-${type}`}>

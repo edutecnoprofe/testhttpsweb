@@ -157,7 +157,7 @@ const DayDetail = () => {
         const fileName = getDayDocumentName(day.id);
         if (!fileName) return;
 
-        fetch(`docs/${fileName}.md`)
+        fetch(`${import.meta.env.BASE_URL}docs/${fileName}.md`)
             .then(r => r.ok ? r.text() : Promise.reject())
             .then(md => setDayContent(parseDayContent(md)))
             .catch(() => { }); // silently ignore if doc not available

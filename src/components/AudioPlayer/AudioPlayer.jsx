@@ -25,7 +25,7 @@ const AudioPlayer = ({ audioId }) => {
         <div className="audio-player-container">
             <audio
                 ref={audioRef}
-                src={`audio/${audioId}.mp3`}
+                src={`${import.meta.env.BASE_URL}audio/${audioId}.mp3`}
                 onEnded={handleEnded}
             />
             <button

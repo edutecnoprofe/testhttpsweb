@@ -9,7 +9,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg', 'audio/*.mp3', 'docs/*.md', 'images/*', 'icon.svg'],
+      includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg', 'audio/*.mp3', 'docs/*.md', 'assets/images/*.{jpg,jpeg,png,webp}', 'assets/maps/*.png', 'icon.svg'],
       manifest: {
         name: 'Guía de Viaje Roma 2026',
         short_name: 'Roma 2026',
@@ -19,6 +19,7 @@ export default defineConfig({
         display: 'standalone',
         orientation: 'portrait',
         start_url: '/testhttpsweb/',
+        scope: '/testhttpsweb/',
         lang: 'es',
         icons: [
           {

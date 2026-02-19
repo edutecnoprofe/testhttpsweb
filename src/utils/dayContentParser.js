@@ -283,7 +283,7 @@ export const loadDayContent = async (dayId) => {
   try {
     // En un entorno real, esto haría fetch del archivo
     // Por ahora simulamos que obtenemos el contenido
-    const response = await fetch(`/docs/${fileName}.md`);
+    const response = await fetch(`${import.meta.env.BASE_URL}docs/${fileName}.md`);
     if (!response.ok) {
       throw new Error(`No se pudo cargar el documento: ${fileName}.md`);
     }
