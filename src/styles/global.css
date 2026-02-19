@@ -44,6 +44,11 @@ button {
     font-family: inherit;
     border: none;
     background: none;
+    min-width: var(--touch-target);
+    min-height: var(--touch-target);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 a {
