@@ -18,8 +18,7 @@ export default defineConfig({
         background_color: '#F9F7F2',
         display: 'standalone',
         orientation: 'portrait',
-        start_url: '.',
-        scope: './',
+        start_url: '/testhttpsweb/',
         lang: 'es',
         icons: [
           {
