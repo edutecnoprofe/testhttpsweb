@@ -4,6 +4,7 @@ import './ImagePlaceholder.css';
 
 const ImagePlaceholder = ({ imageId, altText, type = 'default' }) => {
     const isRemote = imageId?.startsWith('http');
+    // We use a relative path from the project base. Vite's BASE_URL includes the trailing slash.
     const imagePath = isRemote ? imageId : (imageId ? `${import.meta.env.BASE_URL}assets/images/${imageId}.jpg` : null);
 
     return (
